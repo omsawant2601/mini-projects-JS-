@@ -8,7 +8,7 @@ A simple and responsive Currency Converter built with HTML, CSS, and JavaScript.
 
 ## 📸 Preview
 
-![Currency Converter Screenshot](./screenshot.png)
+![Currency Converter Screenshot](./Screenshot.png)
 
 ---
 
