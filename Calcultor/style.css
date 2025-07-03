@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 206, 255);
+
+
+
+}
+
+.outerdiv {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    min-height: 90vh;
+}
+
+.Container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.548);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+button {
+    margin: 2px;
+    padding: 5px;
+    height: 4rem;
+    width: 4rem;
+    font-size: larger;
+    font: bold;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 210px;
+}
+
+input {
+    font-size: larger;
+    height: 1rem;
+    width: 17rem;
+    padding: 18px 4px;
+    margin-top: 50px;
+    margin: 10px 0;
+    border: none;
+    display: flex;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    ;
+}
+
+#equal {
+    background-color: rgb(232, 84, 5);
+}
+
+.txt-org {
+    color: rgb(232, 84, 5);
+}
+
+@media (max-width: 375px) {
+    .Container {
+        margin-top: 0px;
+
+        padding: 0px;
+
+    }
+}
